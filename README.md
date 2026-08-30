@@ -1,4 +1,23 @@
-# vinext-starter
+# Product Design English System
+
+A browser-based Product Design English learning system with a maintainable P0
+library, native English speech, speaking practice, favorites, mastery tracking,
+and a P0 readiness checklist.
+
+## Publish with GitHub Pages
+
+1. Create a GitHub repository and push this project to its `main` branch.
+2. In the repository, open **Settings → Pages**.
+3. Under **Build and deployment → Source**, select **GitHub Actions**.
+4. Open the **Actions** tab and wait for **Deploy to GitHub Pages** to finish.
+
+The public URL will be `https://<username>.github.io/<repository>/`. Every push
+to `main` validates the library, builds the static site, and publishes it again.
+
+Favorites, mastery, and learning progress are stored in the current browser and
+do not sync between devices.
+
+## Local development
 
 A clean full-stack starter running on
 [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and
