@@ -84,3 +84,23 @@ button { color:inherit; }
   .phase-row.phase-active{margin:0;padding:18px 12px}.phase-copy h2{font-size:16px}.definition{padding:23px 20px}
   .capture-modal{max-height:calc(100vh - 30px);overflow:auto}.capture-modal textarea{height:120px}.capture-context{align-items:flex-start;gap:10px}.modal-footer{gap:12px}
 }
+
+/* Readability scale: keep dense information architecture while avoiding sub-11px body copy. */
+body{font-size:16px;line-height:1.5}
+.sidebar nav button{font-size:14px}.brand strong{font-size:15px}.brand small{font-size:12px}.phase-mini strong{font-size:13px}.phase-mini small,.profile strong{font-size:11px}.profile small{font-size:10px}
+.eyebrow{font-size:11px}.breadcrumb,.global-search input{font-size:12px}.welcome-row p,.page-title p{font-size:14px;line-height:1.55}.ghost-button,.primary{font-size:12px}
+.task-label{font-size:11px}.task-main>p{font-size:14px;line-height:1.55}.context-chips span,.related-chips span{font-size:11px}.why{font-size:12px}.text-button{font-size:11px}
+.panel-head>span{font-size:11px}.week-task strong{font-size:13px}.week-task small{font-size:11px}.week-task b{font-size:9px}.milestone>p{font-size:13px}.milestone li{font-size:12px}
+.learning-card h4{font-size:17px;line-height:1.5}.learning-card p{font-size:13px;line-height:1.55}.learning-card footer,.bottom-strip small{font-size:11px}.bottom-strip strong{font-size:13px}
+.tabs button{font-size:12px}.tabs span{font-size:10px}.object-list small{font-size:9px}.object-list strong{font-size:16px;line-height:1.5}.object-list em{font-size:11px;line-height:1.45}.detail-top small{font-size:10px}.detail-top h2{font-size:22px}.meaning{font-size:13px;line-height:1.55}.detail-section label{font-size:10px}.detail-section p{font-size:16px;line-height:1.6}.slot-row p{font-size:11px;line-height:1.5}.mastery-row{font-size:10px}
+.vocab-toolbar button,.result-count,.toolbar-label{font-size:11px}.vocab-labels span{font-size:9px}.vocab-grid h3{font-size:22px}.vocab-grid h4{font-size:13px}.vocab-grid p{font-size:13px;line-height:1.6}.vocab-grid button{font-size:11px}.common-toggle,.mastered-mini{font-size:9px!important}.inline-listen{font-size:11px!important}
+.grammar-list span{font-size:10px}.grammar-list h3{font-size:21px}.grammar-list p{font-size:13px;line-height:1.6}.grammar-list blockquote{font-size:15px;line-height:1.6}
+.task-picker span,.task-picker select{font-size:11px}.speaking-context>span{font-size:10px}.speaking-context p,.prep li{font-size:13px;line-height:1.6}.speaking-related,.recorder small{font-size:11px}.record-button,.task-complete{font-size:12px}
+.progress-summary p{font-size:13px;line-height:1.6}.mastery-scale span{font-size:10px}.table-head span{font-size:10px}.skill-row strong{font-size:12px}.skill-row>b,.skill-row em{font-size:10px}.gate-list button strong{font-size:12px}.gate-list button em{font-size:11px}.gate-list button b{font-size:10px}.next-stage p,.next-stage button,.evidence-note p{font-size:11px}.evidence-note strong{font-size:12px}
+
+@media(max-width:600px){
+  .sidebar nav button,.sidebar nav button.active{font-size:10px;line-height:1.15}
+  .welcome-row p,.page-title p{font-size:13px}
+  .object-list strong{font-size:15px}.detail-top h2{font-size:20px}
+  .vocab-grid p,.grammar-list p,.speaking-context p,.prep li{font-size:13px}
+}
