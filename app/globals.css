@@ -112,3 +112,9 @@ body{font-size:16px;line-height:1.5}
 .brand-mark,.eyebrow,.breadcrumb,.task-label,.why,.phase-state{
   font-size:12px!important;
 }
+
+@media(max-width:600px){
+  /* Approved exception: compact labels in the fixed mobile bottom navigation. */
+  .sidebar nav button,.sidebar nav button.active{font-size:10px!important}
+  .sidebar nav .nav-icon{font-size:17px!important}
+}
