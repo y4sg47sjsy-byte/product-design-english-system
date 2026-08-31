@@ -117,4 +117,11 @@ body{font-size:16px;line-height:1.5}
   /* Approved exception: compact labels in the fixed mobile bottom navigation. */
   .sidebar nav button,.sidebar nav button.active{font-size:10px!important}
   .sidebar nav .nav-icon{font-size:17px!important}
+
+  /* Sentence Patterns: one-column mobile flow with no intrinsic-width overflow. */
+  .library-layout{display:grid!important;grid-template-columns:minmax(0,1fr)!important;width:100%;gap:16px}
+  .object-list,.pattern-detail{width:100%;min-width:0;max-width:100%}
+  .object-list>button{width:100%;min-width:0;grid-template-columns:10px minmax(0,1fr) 18px}
+  .object-list>button>div,.detail-top>div{min-width:0}
+  .pattern-detail{position:static;overflow:hidden}
 }
