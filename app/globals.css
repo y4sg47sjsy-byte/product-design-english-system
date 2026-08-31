@@ -104,3 +104,11 @@ body{font-size:16px;line-height:1.5}
   .object-list strong{font-size:15px}.detail-top h2{font-size:20px}
   .vocab-grid p,.grammar-list p,.speaking-context p,.prep li{font-size:13px}
 }
+
+/* Accessibility floor: no rendered text may fall below 12px at any breakpoint. */
+.app-shell :is(p,span,small,strong,b,em,label,button,input,textarea,select,kbd,li,blockquote){
+  font-size:clamp(12px,100%,64px)!important;
+}
+.brand-mark,.eyebrow,.breadcrumb,.task-label,.why,.phase-state{
+  font-size:12px!important;
+}
